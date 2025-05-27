@@ -5,5 +5,16 @@ header {
 }
 #avatar {
     height: 100px;
-
+}
+.selected-lang {
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+}
+.selected-lang::before {
+    content: '';
+    display: block;
+    width: 32px;
+    height: 32px;
+    background-image: url("https://flagsapi.com/BE/flat/32.png");
 }
