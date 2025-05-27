@@ -10,6 +10,8 @@ header {
     cursor: pointer;
     display: flex;
     justify-content: space-between;
+    line-height: 2;
+    width: 100px;
 }
 .selected-lang::before {
     content: '';
@@ -17,4 +19,14 @@ header {
     width: 32px;
     height: 32px;
     background-image: url("https://flagsapi.com/BE/flat/32.png");
+}
+.lang-mengu {
+    margin-top: 25px;
+}
+.lang-mengu ul {
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    border: 1px solid #f8f8f8;
+    
 }
