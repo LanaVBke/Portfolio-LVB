@@ -28,5 +28,17 @@ header {
     padding: 0;
     background-color: white;
     border: 1px solid #f8f8f8;
-    
+    box-shadow: 0px 1px 10px rgb(0, 0, 0, 0.2);
+    border-radius: 5px;
+}
+.lang-mengu ul li {
+    list-style: none;
+}
+.lang-mengu ul li a {
+    width: 125px;
+    display: block;
+    padding: 5px 10px;
+}
+.lang-menu ul li a:hover {
+    background-color: f2f2f2;
 }
