@@ -29,7 +29,11 @@ header {
     background-color: white;
     border: 1px solid #f8f8f8;
     box-shadow: 0px 1px 10px rgb(0, 0, 0, 0.2);
-    border-radius: 5px;
+    border-radius: 5px;list-style: none;
+    display: none;
+    position: absolute;
+    top: Opx
+    ;
 }
 .lang-mengu ul li {
     list-style: none;
@@ -42,3 +46,18 @@ header {
 .lang-menu ul li a:hover {
     background-color: f2f2f2;
 }
+.lang-mengu ul li a::before{
+    content: '';
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    vertical-align: middle;
+    margin-right: 5px;
+    background-image: url();
+}
+.lang-menu: :hover ul {
+    dialog: block;
+}
+.lang-mengu ul li a hover:
+background-color 
+display: block
