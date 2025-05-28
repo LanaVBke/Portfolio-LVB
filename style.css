@@ -72,7 +72,6 @@ p{
     color: white;
     text-decoration: underline;
 }
-
 #Biography{
     color: white;
     background-color: #F298C0;
@@ -139,7 +138,7 @@ h2{
     width: 250px;
     height: auto;
     margin: 10px;
-    padding-top: 50px;
+    padding-top: 10px;
     padding-right: 50px;
     padding-left: 30px;
     padding-bottom: 50px;
@@ -148,6 +147,7 @@ h2{
 .email{
     margin-bottom: 550px;
     margin-left: 30px;
+    padding: 10px;
 }
 #Contact p{
     font-weight: bold;
