@@ -156,10 +156,49 @@ h2{
     text-decoration: none;
     color: black;
 }
-
-
+.Hobby{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: 1fr;
+    height: 20vh;
+}
+.avatar5{
+    display: grid;
+    grid-column: 1;
+    grid-template-rows: 1;
+    height: 50px;
+}
+.Hobby a{
+    display: grid;
+    grid-column: 2;
+    grid-template-rows: 1;
+}
 @media screen and (min-width: 768px){
-
+.Portfoliosneakpeak{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: 1fr;
+    gap: 10px;
+    width: 100vw;
+}
+.pf1{
+    display: flex;
+    grid-column: 1;
+    width: 20px;
+}
+.pf2{
+    display: flex;
+    grid-column: 2;
+}
+.pf3{
+    display: flex;
+    grid-column: 3;
+}
+.Portfoliosneakpeak a{
+    display: grid;
+    grid-column: 4;
+    height: 20px;
+}
 }
 
 
