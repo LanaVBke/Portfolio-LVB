@@ -57,7 +57,7 @@ header {
     background-image: url();
 }
 .lang-menu:hover ul {
-    dialog: block;
+    display: block;
 }
 .lang-mengu ul li a hover{
     background-color:#f8f8f8;
