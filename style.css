@@ -194,23 +194,33 @@ h2{
 #pf1{
     display: flex;
     grid-column: 1;
-    width: 15px;
+    width: 10px;
+    height: auto;
 }
 #pf2{
     display: flex;
     grid-column: 2;
-    width: 15px;
+    width: 10px;
+    height: auto;
 }
 #pf3{
     display: flex;
     grid-column: 3;
-    width: 15px;
+    width: 10px;
+    height: auto;
 }
 #Portfoliosneakpeak a{
     display: grid;
     grid-column: 4;
-    height: 15px;
+    height: 10px;
 }
+#Biography{
+    width: 50vw;
+}
+#Biography img{
+    margin-left: 45vw;
+}
+
 }
 
 
