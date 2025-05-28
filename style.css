@@ -207,30 +207,15 @@ h2{
     position: relative;
     bottom: 200%;
 }
-#Workflow a{
-    background-color: #85BEE8;
-    padding: 20px;
-    margin: 50px;
-    position: relative;
-    top: 30%;
-    color: white;
-    text-decoration: none;
-    width: 300px;
-    font-size: 30px;
+video{
+    border: #85BEE8 1px solid;
+    margin: 20px;
+    border-radius: 20px;
 }
 #Workflow{
-    height: 30vw;
+    height: 300px;
 }
-#hob a{
-    background-color: #85BEE8;
-    padding: 20px;
-    margin: 50px;
-    position: relative;
-    width: 300px;
-    text-decoration: none;
-    color: white;
-    font-size: 30px;
-}
+
 #animatie{
     background-color: #85BEE8;
     padding: 20px;
