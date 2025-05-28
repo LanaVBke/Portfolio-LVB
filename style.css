@@ -77,8 +77,9 @@ header {
     margin: 20px;
     font-size: 15px;
     font-family: "Lora", serif;
-    padding: 10px;
-    padding-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
     background-color: #F298C0;
 }
 h1{
@@ -94,6 +95,26 @@ h2{
     padding-left: 30px;
     padding-top: 20px;
 }
+#avatar2{
+    width: 70px;
+    display: flex;
+    margin-left: 80vw;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+}
+#Portfoliosneakpeak img{
+    height: 400px;
+    width: auto;
+    margin-left: 40px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: #85BEE8;
+    padding: 10px;
+    border: #85BEE8 solid 1px;
+    border-radius: 20px;
+}
+
+
 @media screen and (min-width: 768px){
 
 }
