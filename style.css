@@ -22,6 +22,7 @@ header {
 }
 .lang-mengu {
     margin-top: 25px;
+    position: relative;
 }
 .lang-mengu ul {
     margin: 0;
@@ -32,8 +33,8 @@ header {
     border-radius: 5px;list-style: none;
     display: none;
     position: absolute;
-    top: Opx
-    ;
+    top: 40px;
+    left: 0;
 }
 .lang-mengu ul li {
     list-style: none;
@@ -55,9 +56,16 @@ header {
     margin-right: 5px;
     background-image: url();
 }
-.lang-menu: :hover ul {
+.lang-menu:hover ul {
     dialog: block;
 }
-.lang-mengu ul li a hover:
-background-color 
-display: block
+.lang-mengu ul li a hover{
+    background-color:#f8f8f8;
+    display: block;
+}
+.fr::before{
+    background-image: url("https://flagsapi.com/FR/flat/32.png");
+}
+.en::before{
+    background-image: url("https://flagsapi.com/US/flat/32.png");
+}
