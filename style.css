@@ -106,15 +106,19 @@ h2{
     padding-bottom: 10px;
 }
 #Portfoliosneakpeak img{
-    height: 200px;
+    height: 250px;
     width: auto;
-    margin-left: 40px;
+    margin-left: 100px;
     margin-top: 10px;
     margin-bottom: 10px;
     background-color: #85BEE8;
     padding: 10px;
     border: #85BEE8 solid 1px;
     border-radius: 20px;
+}
+#Portfoliosneakpeak img{
+    justify-content: center;
+    margin-left: 100px;
 }
 #Contact{
     display: grid;
@@ -227,7 +231,15 @@ h2{
     color: white;
     font-size: 30px;
 }
-
+#animatie{
+    background-color: #85BEE8;
+    padding: 20px;
+    margin: 50px;
+    position: relative;
+    width: 300px;
+    color: white;
+    font-size: 30px;
+}
 @media screen and (min-width: 768px){
 #Portfoliosneakpeak{
     display: grid;
@@ -281,7 +293,24 @@ h2{
 #Inspiration h2{
     background-color: #F298C0;
 }
-
+#hero{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: 1;
+}
+#animatie{
+    grid-column: 2;
+}
+#Biography{
+    grid-column: 1;
+}
+#Portfoliosneakpeak{
+    justify-content: space-between;
+}
+#Portfoliosneakpeak img{
+    margin-left: 130px;
+    justify-content: space-between;
+}
 }
 
 
