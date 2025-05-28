@@ -6,7 +6,7 @@ header {
 }
 p{
     font-family: "Lora", serif;
-    font-size: 10px;
+    font-size: 20px;
 }
 #avatar {
     height: 60px;
@@ -78,7 +78,6 @@ p{
 }
 #TekstBiography{
     margin: 20px;
-    font-size: 15px;
     font-family: "Lora", serif;
     padding-left: 10px;
     padding-right: 10px;
@@ -121,7 +120,7 @@ h2{
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 3fr;
-    height: 50vh;
+    height: 60vh;
     position: relative;
     isolation: isolate;
 }
@@ -143,7 +142,7 @@ h2{
     padding-left: 30px;
     justify-self: center;
     position: relative;
-    bottom: 140%;
+    bottom: 135%;
 }
 .email{
     margin-bottom: 550px;
@@ -204,6 +203,30 @@ h2{
     position: relative;
     bottom: 200%;
 }
+#Workflow a{
+    background-color: #85BEE8;
+    padding: 20px;
+    margin: 50px;
+    position: relative;
+    top: 30%;
+    color: white;
+    text-decoration: none;
+    width: 300px;
+    font-size: 30px;
+}
+#Workflow{
+    height: 30vw;
+}
+#hob a{
+    background-color: #85BEE8;
+    padding: 20px;
+    margin: 50px;
+    position: relative;
+    width: 300px;
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+}
 
 @media screen and (min-width: 768px){
 #Portfoliosneakpeak{
@@ -258,22 +281,7 @@ h2{
 #Inspiration h2{
     background-color: #F298C0;
 }
-#Workflow a{
-    background-color: #85BEE8;
-    padding: 20px;
-    margin: 50px;
-    position: relative;
-    top: 20%;
-}
-#Workflow{
-    height: 20vw;
-}
-#hob a{
-    background-color: #85BEE8;
-    padding: 20px;
-    margin: 50px;
-    position: relative;
-}
+
 }
 
 
