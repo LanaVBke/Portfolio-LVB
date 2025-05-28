@@ -165,6 +165,14 @@ h2{
     background-color: #85BEE8;
     color: white;
 }
+.Abilities p{
+    color: white;
+}
+.hob{
+    margin: 20px;
+    padding: 10px;
+}
+
 @media screen and (min-width: 768px){
 .Portfoliosneakpeak{
     display: grid;
