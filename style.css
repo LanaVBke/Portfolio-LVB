@@ -143,6 +143,8 @@ h2{
     padding-left: 30px;
     padding-bottom: 50px;
     justify-self: center;
+    position: relative;
+    bottom: 110%;
 }
 .email{
     margin-bottom: 550px;
