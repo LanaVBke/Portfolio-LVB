@@ -1,5 +1,5 @@
 header {
-    background-color: 85BEE8;
+    background-color: #85BEE8;
     height: 70px;
     padding: 10px 0px;
 }
@@ -8,7 +8,7 @@ header {
 }
 .selected-lang {
     cursor: pointer;
-    display: none;
+    display: flex;
     justify-content: space-between;
     line-height: 3;
     width: 100px;
@@ -33,7 +33,7 @@ header {
     border-radius: 5px;list-style: none;
     display: none;
     position: absolute;
-    top: 40px;
+    top: 50px;
     left: 0;
 }
 .lang-mengu ul li {
@@ -69,8 +69,22 @@ header {
 .en::before{
     background-image: url("https://flagsapi.com/US/flat/32.png");
 }
+.Navigation .selected-lang{
+    display: none;
+}
 .Navigation{
-    display: flex;
     margin: 0 auto;
     justify-content: space-between;
+}
+
+@media screen and (min-width: 768px){
+    .selected-lang{
+        display: flex;
+    }
+}
+
+#TekstBiography{
+    margin: 20px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
 }
