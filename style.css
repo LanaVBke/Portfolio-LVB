@@ -1,16 +1,16 @@
 header {
     background-color: 85BEE8;
-    height: 110px;
+    height: 70px;
     padding: 10px 0px;
 }
 #avatar {
-    height: 100px;
+    height: 50px;
 }
 .selected-lang {
     cursor: pointer;
-    display: flex;
+    display: none;
     justify-content: space-between;
-    line-height: 2;
+    line-height: 3;
     width: 100px;
 }
 .selected-lang::before {
