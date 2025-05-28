@@ -69,3 +69,8 @@ header {
 .en::before{
     background-image: url("https://flagsapi.com/US/flat/32.png");
 }
+.Navigation{
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+}
