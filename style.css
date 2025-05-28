@@ -161,43 +161,55 @@ h2{
 .avatar5{
     padding: 10px;
 }
-.Abilities{
+#Abilities{
     background-color: #85BEE8;
     color: white;
+    margin: 10px;
 }
-.Abilities p{
+#Abilities p{
     color: white;
 }
-.hob{
+#hob{
     margin: 20px;
     padding: 10px;
 }
+#Inspiration{
+    margin: 20px;
+}
+#Inspiration p{
+    padding: 10px;
+}
+#Hobby{
+    margin-left: 70px;
+}
 
 @media screen and (min-width: 768px){
-.Portfoliosneakpeak{
+#Portfoliosneakpeak{
     display: grid;
     grid-template-columns: repeat(3,1fr);
     grid-template-rows: 1fr;
     gap: 10px;
-    width: 100vw;
+    width: 80vw;
 }
-.pf1{
+#pf1{
     display: flex;
     grid-column: 1;
-    width: 20px;
+    width: 15px;
 }
-.pf2{
+#pf2{
     display: flex;
     grid-column: 2;
+    width: 15px;
 }
-.pf3{
+#pf3{
     display: flex;
     grid-column: 3;
+    width: 15px;
 }
-.Portfoliosneakpeak a{
+#Portfoliosneakpeak a{
     display: grid;
     grid-column: 4;
-    height: 20px;
+    height: 15px;
 }
 }
 
