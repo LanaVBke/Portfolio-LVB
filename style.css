@@ -296,6 +296,15 @@ video{
     margin-left: 130px;
     justify-content: space-between;
 }
+#hob video{
+    margin-left: 300px;
+}
+#Hobby{
+    margin-left: 400px;
+}
+#avatar5{
+    height: 300px;
+}
 }
 
 
