@@ -244,9 +244,13 @@ video{
 #Portfoliosneakpeak{
     display: grid;
     grid-template-columns: repeat(3,1fr);
-    grid-template-rows: 1fr;
+    grid-template-rows: repeat(1fr);
     gap: 10px;
     width: 80vw;
+}
+#Portfoliosneakpeak h2{
+    grid-row: 1;
+    grid-column: span;
 }
 #pf1{
     display: flex;
