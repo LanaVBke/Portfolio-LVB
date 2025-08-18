@@ -34,7 +34,7 @@ p{
     border:1px solid white;
     border-radius: 5px;
     cursor: pointer;
-    font-size: 15px;
+    font-size: x-large;
 }
 .menu .content a{
     box-shadow: 2px 2px 5px black;
@@ -66,7 +66,7 @@ p{
     color: white;
     margin: 25px;
     text-decoration: none;
-    font-size: 15px;
+    font-size: xx-large;
 }
 #active{
     color: white;
@@ -97,7 +97,6 @@ h2{
     font-size: 40px;
     padding-left: 30px;
     padding-top: 20px;
-    margin-bottom: 20px;
 }
 h3{
     font-family: "Playfair Display", serif;
@@ -109,6 +108,11 @@ h3{
     text-decoration: none;
     padding: 15px;
     padding-bottom: 10px;
+    position: relative;
+    left: 30vw;
+}
+#linken{
+    width: 50vw;
 }
 #avatar2{
     width: 70px;
@@ -146,8 +150,8 @@ h3{
     height: 250px;
     width: auto;
     margin-left: 100px;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin-bottom: 3vh;
+    margin-top: -5%;
     background-color: gray;
     padding: 10px;
     border: gray solid 1px;
@@ -156,6 +160,8 @@ h3{
 #Portfoliosneakpeak img{
     justify-content: center;
     margin-left: 100px;
+    position: relative;
+    left: 30vw;
 }
 #Contact{
     display: grid;
@@ -177,21 +183,27 @@ h3{
     height: 150%;
 }
 #img{
-    width: 200px;
+    width: 400px;
     height: auto;
     margin: 10px;
     padding-right: 50px;
     padding-left: 30px;
-    justify-content: center;
+    padding-top: 20px;
     grid-row: 2;
+    position: relative;
+    left: 30vw;
 }
 .email{
     margin-bottom: 550px;
     margin-left: 30px;
     padding: 10px;
+    position: relative;
+    left: 20vw;
+    width: 60vw;
 }
 #Contact p{
     font-weight: bold;
+    font-size: xx-large;
 }
 #Contact a{
     text-decoration: none;
@@ -209,6 +221,8 @@ h3{
     grid-template-columns: repeat(4,1fr);
     grid-template-rows: repeat(2,1fr);
     width: 400px;
+    position: relative;
+    left: 30vw;
 }
 #Abilities p{
     color: white;
@@ -249,11 +263,13 @@ video{
     border-radius: 20px;
 }
 #Workflow{
-    height: 330px;
+    height: 600px;
 }
 #Workflow video{
     margin-left: 40px;
     margin-bottom: 40px;
+    position: relative;
+    left: 30vw;
 }
 
 #animatie{
