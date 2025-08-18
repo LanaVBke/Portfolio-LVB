@@ -362,8 +362,8 @@ video{
     justify-content: space-between;
 }
 #Portfoliosneakpeak img{
-    margin-left: 130px;
     justify-content: space-between;
+    left: -5vw;
 }
 h1{
     font-size: 100px;
@@ -383,6 +383,9 @@ header{
     display: grid;
     grid-template-columns: repeat(2,1fr);
     margin-bottom: 20px;
+}
+#img{
+    width: 270px;
 }
 #Contact{
     display: grid;
@@ -405,4 +408,16 @@ header{
     padding: 10px;
     margin-left: 60px;
 }
+#linken a{
+    left: 0vw;
+}
+#Workflow video{
+    left: -0vw;
+}
+#Abilities{
+    left: 10vw;
+}
+}
+body{
+    overflow-x: hidden;
 }
