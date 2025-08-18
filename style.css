@@ -122,9 +122,9 @@ h3{
     margin-left: 100px;
     margin-top: 10px;
     margin-bottom: 10px;
-    background-color: #85BEE8;
+    background-color: gray;
     padding: 10px;
-    border: #85BEE8 solid 1px;
+    border: gray solid 1px;
     border-radius: 20px;
 }
 #Portfoliosneakpeak img{
@@ -192,7 +192,7 @@ h3{
 #Inspiration{
     margin: 20px;
     color: white;
-    background-color: #F298C0;
+    background-color: #85BEE8;
 }
 #Inspiration img{
     width: 60px;
