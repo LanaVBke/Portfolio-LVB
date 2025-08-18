@@ -179,16 +179,14 @@ h3{
     color: white;
     margin: 10px;
     display: grid;
-    grid-template-columns: repeat(8,1fr);
+    padding-left: 20px;
+    grid-template-columns: repeat(4,1fr);
     grid-template-rows: repeat(2,1fr);
 }
 #Abilities p{
     color: white;
 }
-#hob{
-    margin: 20px;
-    padding: 10px;
-}
+
 #Inspiration{
     color: white;
     background-color: #85BEE8;
@@ -204,15 +202,12 @@ h3{
 #Inspiration p{
     padding: 10px;
 }
-#Hobby{
-    margin-left: 70px;
-}
 .kolom1{
     margin: 10px;
     grid-template-rows: 2;
     grid-column: 1;
     position: relative;
-    top: 20%;
+    padding-left: 20px;
 }
 .kolom2{
     margin: 10px;
@@ -227,7 +222,11 @@ video{
     border-radius: 20px;
 }
 #Workflow{
-    height: 300px;
+    height: 330px;
+}
+#Workflow video{
+    margin-left: 40px;
+    margin-bottom: 40px;
 }
 
 #animatie{
