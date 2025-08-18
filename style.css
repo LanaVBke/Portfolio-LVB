@@ -87,16 +87,27 @@ p{
 h1{
     font-family: "PT serif", serif;
     font-weight: 400;
-    font-size: 40px;
+    font-size: 50px;
     text-align: center;
     margin-top: 10px;
     margin-bottom: 10px;
 }
 h2{
     font-family: "Playfair Display", serif;
-    font-size: 30px;
+    font-size: 40px;
     padding-left: 30px;
     padding-top: 20px;
+    margin-bottom: 20px;
+}
+h3{
+    font-family: "Playfair Display", serif;
+    font-size: 25px;
+    color: black;
+    padding-left: 50px;
+}
+#linken a{
+    text-decoration: none;
+    padding: 15px;
 }
 #avatar2{
     width: 70px;
