@@ -240,7 +240,7 @@ video{
     color: white;
     font-size: 30px;
 }
-@media screen and (min-width: 768px){
+@media screen and (min-width: 1170px){
 #Portfoliosneakpeak{
     display: grid;
     grid-template-columns: repeat(4,1fr);
