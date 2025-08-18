@@ -108,6 +108,7 @@ h3{
 #linken a{
     text-decoration: none;
     padding: 15px;
+    padding-bottom: 10px;
 }
 #avatar2{
     width: 70px;
@@ -149,14 +150,13 @@ h3{
     background-position: center;
 }
 #img{
-    width: 250px;
+    width: 200px;
     height: auto;
     margin: 10px;
-    padding-top: 10px;
     padding-right: 50px;
     padding-left: 30px;
-    justify-self: center;
     position: relative;
+    position: center;
     bottom: 135%;
 }
 .email{
@@ -190,9 +190,12 @@ h3{
     padding: 10px;
 }
 #Inspiration{
-    margin: 20px;
     color: white;
     background-color: #85BEE8;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 20px;
 }
 #Inspiration img{
     width: 60px;
