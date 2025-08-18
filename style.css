@@ -147,7 +147,9 @@ h3{
     z-index: -1;
     opacity: 0.3;
     background-image: url(background.png);
+    background-size:auto;
     background-position: center;
+    height: 150%;
 }
 #img{
     width: 200px;
@@ -175,13 +177,14 @@ h3{
     padding: 10px;
 }
 #Abilities{
-    background-color: #85BEE8;
+    background-color: #F298C0;
     color: white;
     margin: 10px;
     display: grid;
     padding-left: 20px;
     grid-template-columns: repeat(4,1fr);
     grid-template-rows: repeat(2,1fr);
+    width: 400px;
 }
 #Abilities p{
     color: white;
@@ -271,25 +274,22 @@ video{
 }
 #Biography{
     width: 50vw;
+    margin-right: 20px;
+    margin-left: 20px;
 }
 #Biography img{
-    margin-left: 45vw;
+    margin-left: 40vw;
 }
 #Inspiration{
     width: 100vw;
-    display: grid;
-    grid-template-columns: repeat(2,1fr);
     background-color: white;
 }
-#Inspiration img{
-    grid-column: 2;
-}
+
 #Inspiration p{
-    grid-column: 1;
-    background-color: #F298C0;
+    background-color: #85BEE8;
 }
-#Inspiration h2{
-    background-color: #F298C0;
+#Inspiration{
+    background-color: #85BEE8;
 }
 #hero{
     display: grid;
@@ -309,16 +309,37 @@ video{
     margin-left: 130px;
     justify-content: space-between;
 }
-#hob video{
-    margin-left: 300px;
+h1{
+    font-size: 100px;
 }
-#Hobby{
-    margin-left: 400px;
+.nav{
+    font-size: 30px;
+    padding-bottom: 20px;
 }
-#avatar5{
-    height: 300px;
+header{
+    height: 80px;
+    margin-bottom: 20px;
+}
+#part2{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin-bottom: 20px;
+}
+#Contact{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2,1fr);
+}
+#Contact h2{
+    grid-column: 1;
+    grid-row: 1;
+}
+#Contact p{
+    grid-column: 2;
+    grid-row: 2;
+}
+#Contact img{
+    grid-column: 1;
+    grid-row: 2;
 }
 }
-
-
-
