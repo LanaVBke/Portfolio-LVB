@@ -243,32 +243,44 @@ video{
 @media screen and (min-width: 768px){
 #Portfoliosneakpeak{
     display: grid;
-    grid-template-columns: repeat(3,1fr);
-    grid-template-rows: repeat(1fr);
-    gap: 10px;
-    width: 80vw;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 20px;
+    width: 100vw;
+    height: 440px;
+    margin-bottom: 40px;
 }
 #Portfoliosneakpeak h2{
-    grid-row: 1;
-    grid-column: span;
+    position:absolute;
+    margin-bottom: 200px;
 }
 #pf1{
     display: flex;
     grid-column: 1;
     width: 10px;
     height: auto;
+    grid-row: 2;
 }
 #pf2{
     display: flex;
     grid-column: 2;
     width: 10px;
     height: auto;
+    grid-row: 2;
 }
 #pf3{
     display: flex;
     grid-column: 3;
     width: 10px;
     height: auto;
+    grid-row: 2;
+}
+#pf4{
+    display: flex;
+    grid-column: 4;
+    width: 10px;
+    height: auto;
+    grid-row: 2;
 }
 #Portfoliosneakpeak a{
     display: grid;
